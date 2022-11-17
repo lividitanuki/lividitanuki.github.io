@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cookie Monster</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <meta name="robots" content="noindex,follow" />
+
+  </head>
+
+  <body>
+    <main class="container">
+
+      <!-- Left Column / Cookie Image -->
+      <div class="left-column">
+        <img data-image="black" src="images/black.png" alt="">
+        <img data-image="blue" src="images/blue.png" alt="">
+        <img data-image="red" class="active" src="images/red.png" alt="">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Monster</span>
+          <h1>Cookie Monster</h1>
+          <p>I love cookies big and small, I love cookies I love them all. Do you have cookies? Do you need them eaten? If so, me the monster for the job.</p>
+
+          <p>Flavors of expertise: chocolate chip cookies, peanut butter cookies, maple leaf cookies - and while you were reading I just ate your browser cookies...om nom nom nom.</p>
+
+          <p>My favorite word? Cookie! My least favorite word? "outofcookies". Me have over 30 years of experience with cookies on Sesame Street. And if you want to see me in action please watch my SNL demo reel where I act, sing and eat cookies.</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Type of Cookie</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="black" type="radio" id="black" name="color" value="black">
+                <label for="black"><span></span></label>
+              </div>
+            </div>
+
+          </div>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span id="dynamic-price">1999$</span>
+          <a href="http://www.sesamestreet.org" class="cart-btn">Order Cookie Monster Now</a>
+        </div>
+      </div>
+
+
+        <!-- Social Media -->
+        <div class="wrapper">
+        <a href="https://www.facebook.com/CookieMonster" class="icon facebook">
+          <div class="tooltip">Facebook</div>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </a>
+        <a href="https://twitter.com/MeCookieMonster" class="icon twitter">
+          <div class="tooltip">Twitter</div>
+          <span><i class="fab fa-twitter"></i></span>
+        </a>
+
+        <a href="http://www.youtube.com/watch?v=C-PkQRh3QXA" class="icon youtube">
+          <div class="tooltip">Youtube</div>
+          <span><i class="fab fa-youtube"></i></span>
+        </a>
+        </div>
+    </main>
+
+
+
+
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
